@@ -1,6 +1,6 @@
-if('serviceWorker' in Navigator){
+if('serviceWorker' in navigator){
   window.addEventListener('load', function () {
-    navigator.register('https://github.com/Sumer16/relaxovat/sw.js').then((reg) => {
+    navigator.serviceWorker.register('/sw.js').then((reg) => {
       console.log('Service worker registered successfully! ', reg.scope);
     }).catch((err) => {
       console.log('Service worker registration failed! ', err);

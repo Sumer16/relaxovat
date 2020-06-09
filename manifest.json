@@ -1,12 +1,12 @@
 {
   "name": "Relaxovat",
   "short_name": "Relaxovat",
-  "start_url": "https://sumer16.github.io/relaxovat",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#55b7a4",
   "theme_color": "#2a5b52",
   "orientation": "portrait",
-  "description": "A simply readable Hacker News app.",
+  "description": "A simple Relax app to loosen up your stress.",
   "icons": [{
     "src": "./img/icons/favicon-16x16.png",
     "sizes": "16x16",
