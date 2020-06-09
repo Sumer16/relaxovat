@@ -1,4 +1,4 @@
-let CACHE_NAME = 'relaxo-cache';
+const CACHE_NAME = 'relaxo-cache';
 const urlToCache = [
   './',
   './img/'
